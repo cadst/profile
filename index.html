@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+    />
+    <title>내 프로필</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>My Profile</h1>
+      <p class="o">
+        My name is <strong>Lee Dong Guk</strong>. I'm 21 years old and student
+        of skku.
+      </p>
+      <p class="o">Student number: 2020311067</p>
+      <p class="o" style="font-weight: 100">Email: tyu1234567@naver.com</p>
+      <p class="o">My Github account: <em>cadst</em></p>
+      <p class="o">Interest: game</p>
+    </div>
+    <img
+      src="photo.png"
+      alt="this is an image of my cat"
+      width="300"
+      height="300"
+    />
+    <h2>Bookmark</h2>
+    <ul id="l">
+      <li><a href="https://icampus.skku.edu">icampus</a></li>
+      <li><a href="https://www.github.com">Github</a></li>
+      <li><a href="https://www.youtube.com">Youtube</a></li>
+    </ul>
+    <h2>May Schedule</h2>
+    <h6>1st week</h6>
+    <table>
+      <tr>
+        <th class="s">Sunday</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th id="s">Saturday</th>
+      </tr>
+      <tr>
+        <td>~PA2</td>
+        <td>~PA2</td>
+        <td>~A3</td>
+        <td>~A3</td>
+        <td>~class</td>
+        <td>~project</td>
+        <td>~study</td>
+      </tr>
+    </table>
+    <h3>Todos</h3>
+    <ul>
+      <li>PA2 (~5/3) in <strong>JAVA</strong></li>
+      <li>Assignment 3 (~5/5) in<strong>Algorithms</strong></li>
+      <li>Subject representation (~5/11) in <strong>JAVA</strong></li>
+    </ul>
+    <div class="container">
+      <div class="d-flex align-items-center mb-2 mt-2">
+        <input
+          type="text"
+          class="form-control"
+          id="task-input"
+          placeholder="아이디"
+        />
+      </div>
+      <button type="button" class="btn btn-success" id="login">로그인</button>
+    </div>
+    <div>
+      <div class="d-flex align-items-center mb-2 mt-2">
+        <button type="button" class="btn btn-primary">JAVA</button>
+        <button type="button" class="btn btn-secondary">Algorithms</button>
+        <button type="button" class="btn btn-success">Data structure</button>
+        <button type="button" class="btn btn-danger">Dynamics</button>
+        <button type="button" class="btn btn-warning">성균논어</button>
+        <button type="button" class="btn btn-info">Open source</button>
+        <button type="button" class="btn btn-light">Problem solving</button>
+        <button type="button" class="btn btn-dark">안전교육</button>
+      </div>
+    </div>
+    <p>
+      <a
+        class="btn btn-primary"
+        data-bs-toggle="collapse"
+        href="#multiCollapseExample1"
+        role="button"
+        aria-expanded="false"
+        aria-controls="multiCollapseExample1"
+        >Toggle 1</a
+      >
+      <button
+        class="btn btn-primary"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#multiCollapseExample2"
+        aria-expanded="false"
+        aria-controls="multiCollapseExample2"
+      >
+        Toggle 2
+      </button>
+      <button
+        class="btn btn-primary"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target=".multi-collapse"
+        aria-expanded="false"
+        aria-controls="multiCollapseExample1 multiCollapseExample2"
+      >
+        Toggle 1 and 2
+      </button>
+    </p>
+    <div class="row">
+      <div class="col">
+        <div class="collapse multi-collapse" id="multiCollapseExample1">
+          <div class="card card-body">content of 1</div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="collapse multi-collapse" id="multiCollapseExample2">
+          <div class="card card-body">content of 2</div>
+        </div>
+      </div>
+    </div>
+    <p class="text-start">Start aligned text on all viewport sizes.</p>
+    <p class="text-center">Center aligned text on all viewport sizes.</p>
+    <p class="text-end">End aligned text on all viewport sizes.</p>
+    <div id="textcolor" class="d-flex align-items-center mb-2 mt-2">
+      <div class="p-3 mb-2 bg-primary text-white text-center">blue one</div>
+      <div class="p-3 mb-2 bg-secondary text-white text-center">gray one</div>
+      <div class="p-3 mb-2 bg-success text-white text-center">green one</div>
+      <div class="p-3 mb-2 bg-danger text-white text-center">red one</div>
+      <div class="p-3 mb-2 bg-warning text-dark text-center">yellow one</div>
+    </div>
+    <div class="shadow-none p-3 mb-5 bg-light rounded">No shadow</div>
+    <div class="shadow-sm p-3 mb-5 bg-body rounded">Small shadow</div>
+    <div class="shadow p-3 mb-5 bg-body rounded">Regular shadow</div>
+    <div class="shadow-lg p-3 mb-5 bg-body rounded">Larger shadow</div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

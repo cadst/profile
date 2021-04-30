@@ -1,0 +1,88 @@
+.dogs {
+  color: olive;
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: italic;
+  font-size: 15px;
+}
+
+img {
+  border-radius: 15px;
+  margin-left: 800px;
+  margin-top: 20px;
+  border-style: solid;
+  border-color: orange;
+}
+
+#wrapper {
+  width: 720px;
+  margin: auto;
+  padding: 10px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background: whitesmoke;
+  font-family: "Segoe UI";
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0px;
+  color: sandybrown;
+  padding-top: 20px;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 0px;
+  color: indigo;
+  padding-top: 20px;
+}
+
+h6 {
+  text-align: center;
+  color: goldenrod;
+}
+ul {
+  padding-left: 825px;
+}
+
+table {
+  margin-left: 710px;
+}
+
+#l {
+  padding-left: 920px;
+}
+
+#s {
+  color: blue;
+}
+
+.s {
+  color: red;
+}
+
+.o {
+  text-align: center;
+  text-shadow: 5px;
+}
+
+.container {
+  width: 500px;
+  text-align: center;
+}
+
+#login {
+  width: 300px;
+}
+
+#textcolor {
+  width: 300px;
+}
